@@ -1,0 +1,564 @@
+﻿Build started 4/12/2017 4:33:02 PM.
+     1>Project "C:\Users\minchenl\Dropbox\Viscous_Smoke_PSE\Smoke_Solver\Smoke_Solver.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\Smoke_Solver.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\xinxin\Dropbox\xinxin_code\TBB_Multigrid\TBB_Multigrid /IC:\Users\xinxin\Dropbox\xinxin_code\Smoke_Solver\Smoke_Solver /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt Smoke_solver3D.cpp
+         Smoke_solver3D.cpp
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(97): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(97): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(98): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(98): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(99): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(99): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(118): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(118): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(118): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(119): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(130): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(131): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(132): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(136): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(137): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(138): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(191): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(192): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(193): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(194): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(247): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(308): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(318): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(323): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(328): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(352): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(384): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(388): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(410): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(425): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(455): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(455): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(456): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(456): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(457): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(457): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(130): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(131): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(132): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(136): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(137): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(138): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(191): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(192): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(193): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(194): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(247): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(318): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(323): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(328): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(388): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\blas_wrapper.h(53): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\sub_domain.h(95): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\sub_domain.h(169): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\sub_domain.h(169): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\sub_domain.h(169): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\sub_domain.h(265): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\sub_domain.h(266): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\sub_domain.h(267): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\sub_domain.h(268): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\sub_domain.h(269): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(86): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(86): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(86): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(90): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(90): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(90): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(123): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(130): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(139): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(141): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(147): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(207): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(208): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(348): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(349): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(350): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(351): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(352): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(123): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(139): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\Smoke_solver3D.h(141): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(35): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(35): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(35): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(42): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(42): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(42): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(146): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(146): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(146): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(211): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(211): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(211): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(226): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(226): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(226): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(241): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(241): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(241): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(259): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(259): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(259): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(267): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(279): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(279): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(279): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(288): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(299): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(299): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(299): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(307): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(211): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(211): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(211): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(226): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(226): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(226): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(241): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(241): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(241): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(259): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(259): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(259): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(267): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(279): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(279): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(279): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(288): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(299): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(299): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(299): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(307): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(395): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(434): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(434): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(434): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(438): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(438): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(438): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(439): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(439): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(439): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(463): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(463): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(463): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(467): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(467): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(467): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(468): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(468): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(468): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(491): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(491): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(491): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(495): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(495): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(495): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(496): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(496): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(496): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(519): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(519): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(519): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(537): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(537): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(537): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(554): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(554): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(554): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(434): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(434): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(434): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(438): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(438): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(438): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(439): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(439): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(439): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(463): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(463): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(463): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(467): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(467): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(467): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(468): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(468): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(468): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(491): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(491): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(491): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(495): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(495): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(495): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(496): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(496): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(496): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(519): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(519): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(519): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(537): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(537): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(537): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(554): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(554): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(554): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(582): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(583): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(584): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(582): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(583): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(584): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(629): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(630): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(631): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(629): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(630): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(631): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(675): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(676): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(677): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(685): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(685): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(685): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(675): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(676): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(677): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(685): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(685): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(685): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(806): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(806): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(806): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(808): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(808): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(808): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(808): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(808): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(808): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(822): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(822): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(822): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(824): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(824): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(824): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(824): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(824): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(824): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(838): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(838): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(838): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(840): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(840): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(840): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(840): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(840): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(840): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(806): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(806): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(806): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(808): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(808): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(808): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(808): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(808): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(808): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(822): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(822): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(822): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(824): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(824): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(824): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(824): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(824): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(824): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(838): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(838): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(838): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(840): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(840): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(840): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(840): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(840): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(840): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(861): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(861): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(861): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(864): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(864): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(864): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(861): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(861): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(861): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(864): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(864): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(864): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(887): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(887): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(887): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(911): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(911): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(911): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(933): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(933): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(933): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(887): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(887): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(887): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(911): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(911): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(911): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(933): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(933): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(933): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1135): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1135): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1135): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1159): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1159): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1159): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1185): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1185): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1185): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1135): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1135): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1135): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1159): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1159): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1159): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1185): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1185): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1185): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1214): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1214): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1214): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1290): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1290): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1290): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1214): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1214): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1214): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1290): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1290): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1290): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1330): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1340): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1340): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1340): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1352): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1352): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1352): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1364): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1364): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1364): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1400): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>Smoke_solver3D.cpp(1472): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1473): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1474): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1475): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>Smoke_solver3D.cpp(1480): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1480): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1480): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1472): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1473): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1474): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1475): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>Smoke_solver3D.cpp(1480): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1480): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1480): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1514): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1514): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1514): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1516): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1516): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1516): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1517): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1517): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1517): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1522): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1522): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1522): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1531): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1531): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1531): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1533): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1533): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1533): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1539): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1539): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1539): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1562): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>Smoke_solver3D.cpp(1567): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>Smoke_solver3D.cpp(1579): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1580): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1580): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1583): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>Smoke_solver3D.cpp(1602): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1603): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1634): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1634): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1634): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1640): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1640): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1640): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1634): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1634): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1634): warning C4018: '<' : signed/unsigned mismatch
+     1>Smoke_solver3D.cpp(1640): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1640): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Smoke_solver3D.cpp(1640): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(257): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(250) : while compiling class template member function 'ivock::Vec3f ivock::Buffer3D<T>::sample_grad(double,double,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_particle.h(73) : see reference to class template instantiation 'ivock::Buffer3D<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(257): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(257): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(274): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(260) : while compiling class template member function 'float ivock::Buffer3D<T>::sample_cubic(double,double,double)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(276): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(278): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(280): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(282): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(285): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(287): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(289): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(291): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(293): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(297): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(299): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(301): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(303): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(305): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(309): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(311): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(313): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(315): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(317): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(320): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(324): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(343): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(330) : while compiling class template member function 'float ivock::Buffer3D<T>::sample_cube_lerp(double,double,double,float &,float &,float &,float &,float &,float &,float &,float &)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(343): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(344): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(344): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(345): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(345): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(346): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\fluid_buffer3D.h(346): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\sparse_matrix.h(300): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+                 c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\sparse_matrix.h(296) : while compiling class template member function 'void ivock::FixedSparseMatrix<T>::construct_from_matrix(const ivock::SparseMatrix<T> &)'
+                 with
+                 [
+                     T=double
+                 ]
+                 c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\pcg_solver.h(293) : see reference to class template instantiation 'ivock::FixedSparseMatrix<T>' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+                 c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\sub_domain.h(56) : see reference to class template instantiation 'ivock::PCGSolver<T>' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\vec.h(203): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\vec.h(219) : see reference to function template instantiation 'T ivock::mag<3,float>(const ivock::Vec<N,T> &)' being compiled
+                 with
+                 [
+                     T=float,
+                     N=3
+                 ]
+                 Smoke_solver3D.cpp(122) : see reference to function template instantiation 'void ivock::normalize<3,float>(ivock::Vec<N,T> &)' being compiled
+                 with
+                 [
+                     N=3,
+                     T=float
+                 ]
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\AlgebraicMultigrid.h(138): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\AlgebraicMultigrid.h(187) : see reference to function template instantiation 'void ivock::amgVCycle<double>(std::vector<_Ty> &,std::vector<_Ty> &,std::vector<_Ty> &,std::vector<ivock::Vec3i> &,std::vector<double> &,const std::vector<double> &)' being compiled
+                 with
+                 [
+                     _Ty=ivock::FixedSparseMatrix<double> *
+                 ]
+                 c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\AlgebraicMultigrid.h(235) : see reference to function template instantiation 'void ivock::amgPrecond<double>(std::vector<_Ty> &,std::vector<_Ty> &,std::vector<_Ty> &,std::vector<ivock::Vec3i> &,std::vector<double> &,const std::vector<double> &)' being compiled
+                 with
+                 [
+                     _Ty=ivock::FixedSparseMatrix<double> *
+                 ]
+                 Smoke_solver3D.cpp(1120) : see reference to function template instantiation 'bool ivock::AMGPCGSolve<double>(const ivock::SparseMatrix<T> &,const std::vector<_Ty> &,std::vector<_Ty> &,T,int,T &,int &,int,int,int)' being compiled
+                 with
+                 [
+                     T=double,
+                     _Ty=double
+                 ]
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\AlgebraicMultigrid.h(34): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\AlgebraicMultigrid.h(156) : see reference to function template instantiation 'void ivock::RBGS<double>(const ivock::FixedSparseMatrix<T> &,const std::vector<_Ty> &,std::vector<_Ty> &,int,int,int,int)' being compiled
+                 with
+                 [
+                     T=double,
+                     _Ty=double
+                 ]
+                 c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\AlgebraicMultigrid.h(187) : see reference to function template instantiation 'void ivock::amgVCycle<double>(std::vector<_Ty> &,std::vector<_Ty> &,std::vector<_Ty> &,std::vector<ivock::Vec3i> &,std::vector<double> &,const std::vector<double> &)' being compiled
+                 with
+                 [
+                     _Ty=ivock::FixedSparseMatrix<double> *
+                 ]
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\AlgebraicMultigrid.h(35): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\AlgebraicMultigrid.h(44): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\AlgebraicMultigrid.h(69): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\AlgebraicMultigrid.h(70): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\AlgebraicMultigrid.h(79): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\AlgebraicMultigrid.h(34): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\AlgebraicMultigrid.h(35): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\AlgebraicMultigrid.h(44): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\AlgebraicMultigrid.h(69): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\AlgebraicMultigrid.h(70): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\minchenl\dropbox\viscous_smoke_pse\smoke_solver\AlgebraicMultigrid.h(79): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\minchenl\Dropbox\Viscous_Smoke_PSE\x64\Release\Smoke_Solvertest.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\Smoke_Solvertest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\minchenl\Dropbox\Viscous_Smoke_PSE\x64\Release\Smoke_Solvertest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\minchenl\Dropbox\Viscous_Smoke_PSE\x64\Release\Smoke_Solvertest.lib" /MACHINE:X64 x64\Release\GeometricLevelGen.obj
+         x64\Release\levelset_util.obj
+         x64\Release\main.obj
+         x64\Release\Multigrid3D.obj
+         x64\Release\Smoke_solver3D.obj
+         x64\Release\sub_domain.obj
+         Generating code
+         Finished generating code
+         Smoke_Solver.vcxproj -> C:\Users\minchenl\Dropbox\Viscous_Smoke_PSE\x64\Release\Smoke_Solvertest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\minchenl\Dropbox\Viscous_Smoke_PSE\x64\Release\Smoke_Solvertest.exe;#1" /manifest x64\Release\Smoke_Solvertest.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\Smoke_Solver.unsuccessfulbuild".
+         Touching "x64\Release\Smoke_Solver.lastbuildstate".
+     1>Done Building Project "C:\Users\minchenl\Dropbox\Viscous_Smoke_PSE\Smoke_Solver\Smoke_Solver.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.09
